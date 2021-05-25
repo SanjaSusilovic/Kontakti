@@ -1,7 +1,7 @@
 # Kontakti
 
 Aplikacija Kontakti se sastoji od dvije klase u modelu: Kontakt i VrstaKontakta. 
-Između njih je veza jedan naprama više. 
+Između njih je veza više naprama jedan. 
 Svaki kontakt ima samo jednu vrstu kontakta, a vrsta kontakta (npr. poslovni kontakt) ima više kontakata. 
 Klasa Kontakt ima svojstva: primarni ključ, datum unosa, vrstu kontakta, ime, prezime i broj. 
 Klasa VrstaKontakta ima svojstva: primarni ključ, naziv i napomena. 
