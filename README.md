@@ -6,7 +6,7 @@ Svaki kontakt ima samo jednu vrstu kontakta, a vrsta kontakta (npr. poslovni kon
 Klasa Kontakt ima svojstva: primarni ključ, datum unosa, vrstu kontakta, ime, prezime i broj. 
 Klasa VrstaKontakta ima svojstva: primarni ključ, naziv i napomena. 
 Aplikacija je napravljena u MVC arhitekturi. 
-U controlleru je napravljena obrada klase Kontakti i VrstaKontakta, tj. CRUD metode (create, read, update, delete). 
+U controlleru je napravljena obrada klase Kontakt i VrstaKontakta, tj. CRUD metode (create, read, update, delete). 
 Klasa FormaKontakti u view paketu sadrži ComboBox (padajuću listu) za izbor vrste kontakta. 
 Aplikacija se koristi na način da se u klasi FormaVrstaKontakta upišu vrste kontakta (npr. poslovni, obitelj, prijatelj, poznanik),
 te ih se doda u listu, a kasnije se mogu promijeniti i obrisati (pomoću Buttona Dodaj, Promijeni, Obriši). 
